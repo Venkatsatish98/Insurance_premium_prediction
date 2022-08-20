@@ -120,7 +120,7 @@ def predict():
                                     
                                     )
 
-            premium_df = premium_data.get_premium_input_data_frame()
+            premium_df = premium_data.get_insurance_premium_input_data_frame()
             premium_predictor = InsurancePremiumPredictor(model_dir=MODEL_DIR)
             expenses = premium_predictor.predict(X=premium_df)
             print(expenses)
