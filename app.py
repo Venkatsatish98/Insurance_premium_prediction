@@ -120,12 +120,12 @@ def predict():
                                     
                                     )
 
-            premium_df = premium_data.get_insurance_premium_input_data_frame()
+            insurance_df = premium_data.get_insurance_premium_input_data_frame()
             premium_predictor = InsurancePremiumPredictor(model_dir=MODEL_DIR)
-            expenses = premium_predictor.predict(X=premium_df)
+            expenses = premium_predictor.predict(X=insurance_df)
             print(expenses)
             context = {
-                PREMIUM_DATA_KEY: premium_data.get_premium_data_as_dict(),
+                PREMIUM_DATA_KEY: premium_data.get_insurance_premium_data_as_dict(),
                 EXPENSES: expenses,
             }
             return render_template('predict.html', context=context)
