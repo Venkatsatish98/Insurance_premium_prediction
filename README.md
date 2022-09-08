@@ -1,15 +1,8 @@
 
 
-## Table of contents
-* [About project](#about-project)
-* [Technologies](#technologies)
-* [Software and account requirement](#software-and-account-requirement)
-* [Setup](#setup)
-* [Project Pipeline](#project-pipeline)
-<!-- * [License](#license) -->
 
 ## About project
-This app predicts Insurance premium price based on some data.
+This app predicts Insurance premium price.
 
 
 ## Technologies
