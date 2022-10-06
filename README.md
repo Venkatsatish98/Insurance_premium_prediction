@@ -6,22 +6,14 @@ This app predicts Insurance premium price.
 
 
 ## Technologies
-This project is created with below technologies/tools/resorces:
+This project is created with below technologies:
 * Python: 3.7
 * Machine Learning
-* Jupyter Notebook
 * HTML/CSS
-* Docker
 * Git
 * CI/CD Pipeline
 * Heroku
 
-
-## Software and account Requirement
-1. [Github Account](https://github.com/)
-2. [Heroku Account](https://id.heroku.com/login)
-3. [VS Code IDE](https://code.visualstudio.com/download)
-4. [GIT CLI](https://git-scm.com/downloads)
 
 
 ## Setup
