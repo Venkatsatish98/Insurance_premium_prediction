@@ -4,7 +4,7 @@
 ## About the project
 This app predicts Insurance premium price.
 
-Please open the link to open the app https://insurance-premium-v1.herokuapp.com/
+Please click on the link to open the app https://insurance-premium-v1.herokuapp.com/
 
 
 ## Technologies
